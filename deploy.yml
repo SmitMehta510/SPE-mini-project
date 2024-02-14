@@ -21,6 +21,3 @@
         
     - name: Running container
       shell: docker run -it -d --name scientific_calculator smitmehta510/scientific_calculator
-
-    - name: Run Calculator
-      shell: docker start -a -i scientific_calculator
