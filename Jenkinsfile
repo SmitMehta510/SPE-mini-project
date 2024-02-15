@@ -6,11 +6,11 @@ pipeline {
     }
 
     stages {
-        stage('Git Checkout') {
-            steps {
-                git branch: 'main', changelog: false, poll: false, url: 'https://github.com/SmitMehta510/SPE-mini-project.git'
-            }
-        }
+        // stage('Git Checkout') {
+        //     steps {
+        //         git branch: 'main', changelog: false, poll: false, url: 'https://github.com/SmitMehta510/SPE-mini-project.git'
+        //     }
+        // }
         stage('Maven build') {
             steps {
                 sh "mvn clean install"
