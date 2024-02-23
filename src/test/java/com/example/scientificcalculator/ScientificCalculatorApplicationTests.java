@@ -27,10 +27,10 @@ class ScientificCalculatorApplicationTests {
 
     @Test
     public void testFactorialPositive() {
-        assertEquals(120, ScientificCalculatorApplication.factorial(5));
-        assertEquals(1, ScientificCalculatorApplication.factorial(0));
-        assertEquals(1, ScientificCalculatorApplication.factorial(1));
-        assertEquals(720, ScientificCalculatorApplication.factorial(6));
+        assertEquals(120, Calculator.factorial(5));
+        assertEquals(1, Calculator.factorial(0));
+        assertEquals(1, Calculator.factorial(1));
+        assertEquals(720, Calculator.factorial(6));
     }
 
     @Test
@@ -73,8 +73,8 @@ class ScientificCalculatorApplicationTests {
 
     @Test
     public void testFactorialNegative() {
-        assertNotEquals(100, ScientificCalculatorApplication.factorial(5));
-        assertNotEquals(5, ScientificCalculatorApplication.factorial(2));
+        assertNotEquals(100, Calculator.factorial(5));
+        assertNotEquals(5, Calculator.factorial(2));
     }
 
     @Test
