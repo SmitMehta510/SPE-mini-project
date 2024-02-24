@@ -7,6 +7,7 @@ import java.util.Scanner;
 @Slf4j
 public class Calculator {
 
+    //Test
     public static long factorial(int n) {
         if (n == 0)
             return 1;
